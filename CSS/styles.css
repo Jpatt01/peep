@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@media (max-width:1920px){
+body{
+		background-color: #FBF2E2;
+	}
+footer{
+		background-color: #B4CFB6;
+		padding-bottom: 20px;
+		clear: both;
+		margin-top: 5%;
+		font-family: forma-djr-text, sans-serif;
+		font-style: normal;
+		font-weight: 200;
+		font-size: 110%;
+ 		color:#82615A;
+		padding-top: 40px;
+		bottom: 0px;
+		width: 100%;
+		height: 40px;
+		text-align: center;
+		
+	}
+
+.title{
+		text-decoration: none;
+		list-style-type: none;
+		padding: 15px;
+		margin-left: 50px;
+		margin-bottom: 50px;
+		margin-top: 20px;
+		font-size: 80px;
+		color:#DF4747;
+		text-align: center;
+		
+	}
+p{
+		color:rosybrown;
+		display: block;
+		font-family: Arial;
+		font-weight: 600;
+		text-align: center;
+		font-size: 18px;
+	}
+p1{
+		color:rosybrown;
+		display: block;
+		font-family: Arial;
+		font-weight: 600;
+		text-align: center;
+		font-size: 18px;
+	}
+p2{
+		color:rosybrown;
+		display: block;
+		font-family: Arial;
+		font-weight: 600;
+		text-align: center;
+		font-size: 18px;
+	}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+	padding-left: 20%;
+	}
+
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+.title{
+		font-family: "Gambado Sans Forte";
+		
+	}
+}
+@media (max-width:1280px){
+}
+@media (max-width:414px){
+.title{
+		text-decoration: none;
+		list-style-type: none;
+		padding: 15px;
+		margin-left: 0px;
+		margin-bottom: 50px;
+		margin-top: 20px;
+		font-size: 70px;
+		color:#DF4747;
+		text-align: center;
+}
+footer{
+		font-size: 14px;
+	}
+}
